@@ -16,7 +16,7 @@ const Menu = (props) => {
         <Link href="/"><div className={styles.logo}>LR</div></Link>
         
         <input className={styles.sidemenu} type="checkbox" id={styles.sidemenu}/>
-        <label className={styles.hamb} htmlFor={styles.sidemenu}><span className={styles.hambline}></span></label>
+        <label className={styles.hamb} for={styles.sidemenu}><span className={styles.hambline}></span></label>
         
         <div className={styles.div}> 
             <input type="text" id={styles.txtBusca} placeholder="Buscar..." />
