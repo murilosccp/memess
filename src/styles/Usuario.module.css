@@ -1,0 +1,63 @@
+.MenuUsuario{
+    width: 600px;
+    height: 600px;
+    background-color: black;  
+    margin-top: 30px;
+    color: azure;
+}
+.FotoCapa{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 30px;
+      
+}
+.NomeUsuario{
+    color: aliceblue;
+}
+.DescricaoUsuario{
+    color: brown;
+}
+.FotoUser{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 180px;
+    margin-left:-560px ; 
+
+}
+.Menu{
+    display:flex ;
+    justify-content: center;
+}
+.FundoMenu{
+    background: black;
+}
+.ButtonAlto{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.Button p{
+    position: relative;
+    left: -440px
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+}
+.butao{
+    display: flex;
+    justify-content: space-between;
+
+}
